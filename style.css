@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+
+body{
+    background-color: azure;
+    color: aqua;
+}
+
+
+nav{
+display:flex ;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(140, 150, 240);
+padding:1.5rem;
+text-transform: uppercase;
+font-family: 'Sono', sans-serif ;
+}
+a:hover{
+
+    background-color: blue;
+}
+nav a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: rgb(113, 226, 43);
+    width: 90%;
+    padding: 1rem ;
+    margin:1rem auto;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+#card2{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+footer img {
+    width:40px ;
+}
+
+footer  {
+
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+ 
+}
+
+#project img {
+    width: 30%;
+}
